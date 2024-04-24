@@ -63,7 +63,12 @@ public final class StringStuff {
     }
   }
 
-  /** Blow Up method. */
+  /**
+   * Blow Up method.
+   *
+   * @param str
+   * @return
+   */
   public static String blowUp(final String str) {
     // Initialize array from the string.
     char[] lineArr = str.toCharArray();
@@ -91,7 +96,12 @@ public final class StringStuff {
     return output;
   }
 
-  /** Max Run method. */
+  /**
+   * Max Run method.
+   *
+   * @param str
+   * @return
+   */
   public static int maxRun(final String str) {
     // Initialize array from the string.
     char[] lineArr = str.toCharArray();
@@ -121,7 +131,12 @@ public final class StringStuff {
     return maxRun;
   }
 
-  /** Shrink method. */
+  /**
+   * Shrink method.
+   *
+   * @param str
+   * @return
+   */
   public static String shrink(final String str) {
     // Initialize array from the string.
     char[] lineArr = str.toCharArray();
