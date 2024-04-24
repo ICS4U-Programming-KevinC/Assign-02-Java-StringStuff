@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 /**
- * Change me.
+ * Does some string stuff.
  *
  * @author Kevin Csiffary
  * @version 1.0
@@ -67,7 +67,7 @@ public final class StringStuff {
    * Blow Up method.
    *
    * @param str
-   * @return
+   * @return New string.
    */
   public static String blowUp(final String str) {
     // Initialize array from the string.
@@ -100,7 +100,7 @@ public final class StringStuff {
    * Max Run method.
    *
    * @param str
-   * @return
+   * @return Max run length.
    */
   public static int maxRun(final String str) {
     // Initialize array from the string.
@@ -135,7 +135,7 @@ public final class StringStuff {
    * Shrink method.
    *
    * @param str
-   * @return
+   * @return New small string.
    */
   public static String shrink(final String str) {
     // Initialize array from the string.
