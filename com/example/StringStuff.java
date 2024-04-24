@@ -42,11 +42,11 @@ public final class StringStuff {
         String line = sc.nextLine();
 
         // Call methods and write to file.
-        blowUpBufferedWriter.write(BlowUp(line));
+        blowUpBufferedWriter.write(blowUp(line));
         blowUpBufferedWriter.newLine();
-        maxRunBufferedWriter.write(Integer.toString(MaxRun(line)));
+        maxRunBufferedWriter.write(Integer.toString(maxRun(line)));
         maxRunBufferedWriter.newLine();
-        shrinkBufferedWriter.write(Shrink(line));
+        shrinkBufferedWriter.write(shrink(line));
         shrinkBufferedWriter.newLine();
       }
 
@@ -63,7 +63,8 @@ public final class StringStuff {
     }
   }
 
-  public static String BlowUp(String str) {
+  /** Blow Up method. */
+  public static String blowUp(final String str) {
     // Initialize array from the string.
     char[] lineArr = str.toCharArray();
 
@@ -90,7 +91,8 @@ public final class StringStuff {
     return output;
   }
 
-  public static int MaxRun(String str) {
+  /** Max Run method. */
+  public static int maxRun(final String str) {
     // Initialize array from the string.
     char[] lineArr = str.toCharArray();
 
@@ -119,7 +121,8 @@ public final class StringStuff {
     return maxRun;
   }
 
-  public static String Shrink(String str) {
+  /** Shrink method. */
+  public static String shrink(final String str) {
     // Initialize array from the string.
     char[] lineArr = str.toCharArray();
 
